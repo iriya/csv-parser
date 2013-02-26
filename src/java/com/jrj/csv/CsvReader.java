@@ -73,7 +73,6 @@ public class CsvReader {
 	 */
 	public CsvReader(InputStream in) throws UnsupportedEncodingException {
 		this(in, System.getProperty("file.encoding"));
-		System.out.println(System.getProperty("file.encoding"));
 	}
 	
 	/**
